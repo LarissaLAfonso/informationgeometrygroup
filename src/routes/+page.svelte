@@ -40,6 +40,7 @@
 		background: var(--panel);
 		box-shadow: var(--shadow);
 		text-align: center;
+		margin: 0 auto;
 	}
 
 	h1 {
@@ -47,6 +48,7 @@
 		font-size: clamp(28px, 3.2vw, 42px);
 		line-height: 1.1;
 		letter-spacing: -0.3px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	p {
@@ -55,6 +57,7 @@
 		font-size: 16px;
 		line-height: 1.6;
 		max-width: 70ch;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	p + p {
@@ -110,6 +113,7 @@
 		background: var(--panel);
 		padding: 16px 16px 14px;
 		text-align: center;
+		margin: 0 auto;
 	}
 
 	.card h2 {
@@ -117,10 +121,12 @@
 		font-size: 16px;
 		letter-spacing: -0.15px;
 		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.card p {
 		font-size: 14px;
 		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 </style>

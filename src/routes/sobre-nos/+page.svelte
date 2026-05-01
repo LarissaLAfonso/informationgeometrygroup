@@ -31,6 +31,7 @@
 				Sou estudante de graduação em Ciência de Dados e Inteligência Artifical na FGV-EMAp. Sou apaixonada por geometria e estatística, e estou sempre querendo expandir meus horizontes matemáticos.
 			</p>
 
+			
 			<div class="social-links">
                 <a href="https://www.linkedin.com/in/larissa-lemos-afonso-087b78196/" target="_blank" rel="noopener noreferrer" class="social-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -54,12 +55,13 @@
 		margin: 0 0 14px;
 		font-size: clamp(26px, 3.2vw, 36px);
 		letter-spacing: -0.3px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.split {
 		display: grid;
 		grid-template-columns: 1.1fr 1fr;
-		gap: 18px;
+		gap: 30px;
 		align-items: center;
 		border: 1px solid var(--border);
 		border-radius: 14px;
@@ -102,6 +104,7 @@
 		margin: 0 0 6px;
 		font-size: 16px;
 		letter-spacing: -0.15px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.text p {
@@ -109,6 +112,7 @@
 		color: var(--muted);
 		line-height: 1.65;
 		max-width: 80ch;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.text p + p {
@@ -133,7 +137,7 @@
         border-color: currentColor;
         background: var(--hover, rgba(0,0,0,0.04));
     }
-	
+
 	@media (max-width: 860px) {
 		.split {
 			grid-template-columns: 1fr;

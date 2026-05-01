@@ -29,9 +29,9 @@
 </script>
 
 <section class="section">
-	<h1>Estudos</h1>
+	<h1>Notas</h1>
 	<p class="lead">
-		Aqui ficam as notas de cada encontro, além de links para leituras e materiais complementares.
+		Aqui ficam as notas  e o material discutido em cada encontro.
 	</p>
 
 	<ul class="list">
@@ -58,22 +58,23 @@
 	</ul>
 
 	<p class="hint">
-		Dica: troque os <code>href: '#'</code> pelos links reais (PDF, Notion, Google Docs, GitHub, etc.).
+		Dica: você pode trocar os <code>href: '#'</code> pelos links reais (PDF, Notion, Google Docs, GitHub, etc.).
 	</p>
 </section>
 
 <style>
 	.section h1 {
 		margin: 0 0 10px;
-		font-size: clamp(26px, 3.2vw, 36px);
+		font-size: clamp(26px, 3.4vw, 36px);
 		letter-spacing: -0.3px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.lead {
-		margin: 0 0 16px;
+		margin: 0 0 14px;
 		color: var(--muted);
-		line-height: 1.65;
-		max-width: 85ch;
+		line-height: 1.6;
+		max-width: 75ch;
 	}
 
 	.list {
@@ -81,7 +82,7 @@
 		padding: 0;
 		margin: 0;
 		display: grid;
-		gap: 12px;
+		gap: 10px;
 	}
 
 	.list li {
@@ -90,18 +91,16 @@
 	}
 
 	.item {
-		display: block;
 		text-decoration: none;
 		border: 1px solid var(--border);
-		border-radius: 14px;
-		background: var(--panel);
-		box-shadow: var(--shadow);
-		padding: 14px 14px 12px;
+		border-radius: 16px;
+		background: rgba(255, 255, 255, 0.04);
+		padding: 12px 12px 10px;
 	}
 
 	.item:hover {
-		border-color: #d1d5db;
-		background: #fbfbfc;
+		background: rgba(255, 255, 255, 0.06);
+		border-color: rgba(255, 255, 255, 0.18);
 	}
 
 	.row {
@@ -112,8 +111,8 @@
 	}
 
 	.title {
-		font-weight: 750;
-		letter-spacing: -0.15px;
+		font-weight: 700;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.date {
@@ -125,7 +124,7 @@
 	.desc {
 		margin: 8px 0 0;
 		color: var(--muted);
-		line-height: 1.6;
+		line-height: 1.55;
 	}
 
 	.hint {
@@ -134,7 +133,7 @@
 	}
 
 	code {
-		background: #f3f4f6;
+		background: rgba(255, 255, 255, 0.08);
 		border: 1px solid var(--border);
 		padding: 1px 6px;
 		border-radius: 8px;
