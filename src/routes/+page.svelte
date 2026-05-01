@@ -40,7 +40,10 @@
 		background: var(--panel);
 		box-shadow: var(--shadow);
 		text-align: center;
-		margin: 0 auto;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	h1 {
@@ -113,7 +116,9 @@
 		background: var(--panel);
 		padding: 16px 16px 14px;
 		text-align: center;
-		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.card h2 {

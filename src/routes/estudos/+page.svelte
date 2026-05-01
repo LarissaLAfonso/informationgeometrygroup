@@ -67,7 +67,6 @@
 		margin: 0 0 10px;
 		font-size: clamp(26px, 3.4vw, 36px);
 		letter-spacing: -0.3px;
-		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.lead {
@@ -112,7 +111,6 @@
 
 	.title {
 		font-weight: 700;
-		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
 	.date {
