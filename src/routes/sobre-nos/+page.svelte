@@ -50,106 +50,132 @@
 	</div>
 </section>
 
+
 <style>
-	.section h1 {
-		margin: 0 0 14px;
-		font-size: clamp(26px, 3.2vw, 36px);
-		letter-spacing: -0.3px;
-		font-family: Georgia, 'Times New Roman', Times, serif;
-	}
+.section h1 {
+	margin: 0 0 14px;
+	font-size: clamp(26px, 3.2vw, 36px);
+	letter-spacing: -0.3px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.split,
+.organizer {
+	border: 1px solid var(--border);
+	border-radius: 14px;
+	background: var(--panel);
+	box-shadow: var(--shadow);
+	padding: 18px;
+}
+
+.split {
+	display: grid;
+	grid-template-columns: 1.1fr 1fr;
+	gap: 30px;
+	align-items: center;
+}
+
+.organizer {
+	margin-top: 14px;
+	display: grid;
+	grid-template-columns: 120px 1fr;
+	gap: 18px;
+	align-items: center;
+}
+
+.photo {
+	width: 100%;
+	aspect-ratio: 16 / 10;
+	object-fit: cover;
+	border-radius: 12px;
+	border: 1px solid var(--border);
+	background: #f3f4f6;
+}
+
+.avatar {
+	width: 120px;
+	height: 120px;
+	border-radius: 999px;
+	border: 1px solid var(--border);
+	background: #f3f4f6;
+	object-fit: cover;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.text h2 {
+	margin: 0 0 6px;
+	font-size: 16px;
+	letter-spacing: -0.15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text p {
+	margin: 0 auto;
+	color: var(--muted);
+	line-height: 1.65;
+	max-width: 75ch;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text p + p {
+	margin-top: 10px;
+}
+
+.social-links {
+	margin-top: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.social-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+
+	padding: 10px 14px;
+	border-radius: 10px;
+	border: 1px solid var(--border);
+
+	font-size: 14px;
+	font-weight: 650;
+	letter-spacing: -0.1px;
+
+	color: var(--accent);
+	background: white;
+	text-decoration: none;
+
+	transition:
+		background 0.15s ease,
+		transform 0.15s ease;
+}
+
+.social-link:hover {
+	background: var(--accent-soft);
+	transform: translateY(-1px);
+}
+
+@media (max-width: 860px) {
 	.split {
-		display: grid;
-		grid-template-columns: 1.1fr 1fr;
-		gap: 30px;
-		align-items: center;
-		border: 1px solid var(--border);
-		border-radius: 14px;
-		background: var(--panel);
-		box-shadow: var(--shadow);
-		padding: 18px;
-	}
-
-	.photo {
-		width: 100%;
-		aspect-ratio: 16 / 10;
-		object-fit: cover;
-		border-radius: 12px;
-		border: 1px solid var(--border);
-		background: #f3f4f6;
+		grid-template-columns: 1fr;
 	}
 
 	.organizer {
-		margin-top: 14px;
-		display: grid;
-		grid-template-columns: 120px 1fr;
-		gap: 16px;
-		align-items: center;
-		border: 1px solid var(--border);
-		border-radius: 14px;
-		background: var(--panel);
-		box-shadow: var(--shadow);
-		padding: 18px;
+		grid-template-columns: 1fr;
+		text-align: center;
 	}
 
 	.avatar {
-		width: 120px;
-		height: 120px;
-		border-radius: 999px;
-		border: 1px solid var(--border);
-		background: #f3f4f6;
+		justify-self: center;
 	}
 
-	.text h2 {
-		margin: 0 0 6px;
-		font-size: 16px;
-		letter-spacing: -0.15px;
-		font-family: Georgia, 'Times New Roman', Times, serif;
+	.social-links {
+		justify-content: center;
 	}
-
-	.text p {
-		margin: 0;
-		color: var(--muted);
-		line-height: 1.65;
-		max-width: 80ch;
-		font-family: Georgia, 'Times New Roman', Times, serif;
-		padding-top: 2%;
-	}
-
-	.text p + p {
-		margin-top: 10px;
-	}
-
-	.social-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 5px 12px;
-        border-radius: 8px;
-        border: 1px solid var(--border);
-        font-size: 13px;
-        font-weight: 500;
-        color: var(--muted);
-        text-decoration: none;
-        transition: color 0.15s, border-color 0.15s, background 0.15s;
-    }
-    .social-link:hover {
-        color: var(--foreground, #111);
-        border-color: currentColor;
-        background: var(--hover, rgba(0,0,0,0.04));
-		padding-top: 3%;
-    }
-
-	@media (max-width: 860px) {
-		.split {
-			grid-template-columns: 1fr;
-		}
-		.organizer {
-			grid-template-columns: 1fr;
-		}
-		.avatar {
-			justify-self: start;
-		}
-	}
+}
 </style>
-
