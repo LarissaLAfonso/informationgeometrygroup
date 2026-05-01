@@ -113,6 +113,7 @@
 		line-height: 1.65;
 		max-width: 80ch;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+		padding-top: 3%;
 	}
 
 	.text p + p {

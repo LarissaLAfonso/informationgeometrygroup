@@ -29,9 +29,9 @@
 </script>
 
 <section class="section">
-	<h1>Notas</h1>
+	<h1>Estudos</h1>
 	<p class="lead">
-		Aqui ficam as notas  e o material discutido em cada encontro.
+		Aqui ficam as notas de cada encontro, além de links para leituras e materiais complementares.
 	</p>
 
 	<ul class="list">

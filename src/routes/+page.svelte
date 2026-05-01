@@ -69,7 +69,7 @@
 	}
 
 	.cta {
-		margin-top: 16px;
+		margin-top: 20px;
 		display: flex;
 		gap: 10px;
 		flex-wrap: wrap;
@@ -136,5 +136,6 @@
 		font-size: 14px;
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+		margin: 0 auto;
 	}
 </style>
