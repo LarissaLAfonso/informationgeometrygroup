@@ -69,6 +69,7 @@
 		border-radius: 18px;
 		background: rgba(255, 255, 255, 0.04);
 		padding: 14px;
+		text-align: center;
 	}
 
 	.avatar {
@@ -88,6 +89,7 @@
 		margin: 0;
 		color: var(--muted);
 		line-height: 1.6;
+		text-align: center;
 	}
 
 	.text p + p {

@@ -39,6 +39,7 @@
 		border-radius: 14px;
 		background: var(--panel);
 		box-shadow: var(--shadow);
+		text-align: center;
 	}
 
 	h1 {
@@ -108,15 +109,18 @@
 		border-radius: 14px;
 		background: var(--panel);
 		padding: 16px 16px 14px;
+		text-align: center;
 	}
 
 	.card h2 {
 		margin: 0 0 6px;
 		font-size: 16px;
 		letter-spacing: -0.15px;
+		text-align: center;
 	}
 
 	.card p {
 		font-size: 14px;
+		text-align: center;
 	}
 </style>
