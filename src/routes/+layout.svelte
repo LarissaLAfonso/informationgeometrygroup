@@ -6,6 +6,7 @@
 </script>
 
 <svelte:head>
+	<title>Geometria da Informação</title>
 	<link rel="icon" href={favicon} />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="Grupo de estudos em Geometria da Informação." />

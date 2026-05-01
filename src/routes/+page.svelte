@@ -12,8 +12,8 @@
 	</p>
 
 	<div class="cta">
-		<a class="primary" href={base + '/estudos'}>Estudos</a>
-		<a class="secondary" href={base + '/sobre-nos'}>Sobre nós</a>
+		<a class="primary" href={base + '/notes'}>Estudos</a>
+		<a class="secondary" href={base + '/about-us'}>Sobre nós</a>
 	</div>
 </section>
 
@@ -28,7 +28,7 @@
 	</article>
 	<article class="card">
 		<h2>Materiais</h2>
-		<p>As notas de aula e links ficam organizados na página <a href={base + '/estudos'}>Estudos</a>.</p>
+		<p>As notas de aula e links ficam organizados na página <a href={base + '/notes'}>Notas</a>.</p>
 	</article>
 </section>
 
