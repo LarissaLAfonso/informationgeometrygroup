@@ -19,7 +19,7 @@
 		<nav class="nav">
 			<a class="link" href={base + '/'}>Início</a>
 			<a class="link" href={base + '/sobre-nos'}>Sobre nós</a>
-			<a class="link" href={base + '/estudos'}>Estudos</a>
+			<a class="link" href={base + '/estudos'}>Notas</a>
 		</nav>
 	</header>
 

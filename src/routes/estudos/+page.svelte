@@ -8,30 +8,36 @@
 
 	const links: StudyLink[] = [
 		{
-			title: 'Encontro 01 — Introdução e motivação',
-			date: '2026-05-01',
+			title: 'Encontro 01: Conexões Duais',
+			date: '2026-03-19',
 			href: '#',
-			description: 'O que é Geometria da Informação? Por que métricas e divergências aparecem em estatística.'
+			description: 'Seções 6.1 a 6.3 do Information Geometry and Its Applications'
 		},
 		{
-			title: 'Encontro 02 — Divergências e conexões',
-			date: '2026-05-08',
+			title: 'Encontro 02: Variedades Dualmente Planas',
+			date: '2026-04-02',
 			href: '#',
-			description: 'Família exponencial, KL, e interpretação geométrica.'
+			description: 'Seções 6.4 a 6.6 do Information Geometry and Its Applications'
 		},
 		{
-			title: 'Encontro 03 — Métrica de Fisher',
-			date: '2026-05-15',
+			title: 'Encontro 03: Clusterização',
+			date: '2026-04-17',
 			href: '#',
-			description: 'Definição, exemplos e intuição.'
+			description: 'Seção 11.1 do Information Geometry and Its Applications'
+		},
+		{
+			title: 'Encontro 04: SVMs',
+			date: '2026-04-17',
+			href: '#',
+			description: 'Seção 11.2 do Information Geometry and Its Applications'
 		}
 	];
 </script>
 
 <section class="section">
-	<h1>Estudos</h1>
+	<h1>Notas</h1>
 	<p class="lead">
-		Aqui ficam as notas de cada encontro, além de links para leituras e materiais complementares.
+		Aqui ficam as notas e as referências dos textos discutidos em cada encontro.
 	</p>
 
 	<ul class="list">
@@ -92,14 +98,23 @@
 	.item {
 		text-decoration: none;
 		border: 1px solid var(--border);
-		border-radius: 16px;
-		background: rgba(255, 255, 255, 0.04);
-		padding: 12px 12px 10px;
+		border-radius: 14px;
+		background: var(--panel);
+		box-shadow: var(--shadow);
+		padding: 16px 16px 14px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		transition:
+			background 0.15s ease,
+			transform 0.15s ease;
 	}
 
 	.item:hover {
-		background: rgba(255, 255, 255, 0.06);
-		border-color: rgba(255, 255, 255, 0.18);
+		background: var(--accent-soft);
+		transform: translateY(-1px);
 	}
 
 	.row {
@@ -135,5 +150,17 @@
 		border: 1px solid var(--border);
 		padding: 1px 6px;
 		border-radius: 8px;
+	}
+
+	.section h1,
+	.title {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.desc,
+	.lead,
+	.hint,
+	.date {
+		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 </style>

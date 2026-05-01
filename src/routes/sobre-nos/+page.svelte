@@ -16,9 +16,6 @@
 			<p>
 				Começamos a realizar os encontros de maneira regular, a princípio presencialmente, em agosto de 2025, e começamos a documentar nossas atividades em maio de 2026. 
 			</p>
-			<p>
-				Se você tiver interesse em participar, me mande um e-mail!
-			</p>
 		</div>
 	</div>
 
@@ -29,6 +26,9 @@
 			<h2>Larissa Lemos Afonso</h2>
 			<p>
 				Sou estudante de graduação em Ciência de Dados e Inteligência Artifical na FGV-EMAp. Sou apaixonada por geometria e estatística, e estou sempre querendo expandir meus horizontes matemáticos.
+			</p>
+			<p>
+				Se tiver interesse em participar do grupo, me mande um e-mail em larissahamlet at gmail.com.
 			</p>
 
 			
@@ -113,7 +113,7 @@
 		line-height: 1.65;
 		max-width: 80ch;
 		font-family: Georgia, 'Times New Roman', Times, serif;
-		padding-top: 3%;
+		padding-top: 2%;
 	}
 
 	.text p + p {
@@ -137,6 +137,7 @@
         color: var(--foreground, #111);
         border-color: currentColor;
         background: var(--hover, rgba(0,0,0,0.04));
+		padding-top: 3%;
     }
 
 	@media (max-width: 860px) {
