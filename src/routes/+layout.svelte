@@ -14,7 +14,7 @@
 <div class="app">
 	<header class="top">
 		<div class="brand">
-			<a class="title" href={base + '/'}>Grupo de Estudos</a>
+			<a class="title" href={base + '/'}>Geometria da Informação</a>
 		</div>
 		<nav class="nav">
 			<a class="link" href={base + '/'}>Início</a>

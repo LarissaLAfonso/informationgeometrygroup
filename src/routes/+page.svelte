@@ -20,15 +20,15 @@
 <section class="cards">
 	<article class="card">
 		<h2>Como funciona</h2>
-		<p>Em cada encontro escolhemos um tópico, fazemos uma leitura guiada e registramos um resumo com referências.</p>
+		<p>A cada duas semanas, é escolhido um texto para discurtirmos. Os encontros são realizados online em horários votados pelos participantes cada semana.</p>
 	</article>
 	<article class="card">
 		<h2>Para quem é</h2>
-		<p>Para pessoas curiosas — estudantes, pesquisadores e profissionais — com vontade de estudar em grupo.</p>
+		<p>Qualquer um interessado em geometria da informação. Atualmente, a maioria dos participantes são da área de machine learning probabilístico, e portanto os artigos são pensados para pessoas com esse tipo de background. Se você tiver interesse, me mande um e-mail!</p>
 	</article>
 	<article class="card">
 		<h2>Materiais</h2>
-		<p>As notas de aula e links ficam organizados na página “Estudos”.</p>
+		<p>As notas de aula e links ficam organizados na página <a href={base + '/estudos'}>Estudos</a>.</p>
 	</article>
 </section>
 
