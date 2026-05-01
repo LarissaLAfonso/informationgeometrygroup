@@ -52,6 +52,7 @@
 		line-height: 1.1;
 		letter-spacing: -0.3px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+		padding-bottom: 3%;
 	}
 
 	p {
@@ -127,6 +128,7 @@
 		letter-spacing: -0.15px;
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+		padding-bottom: 10%;
 	}
 
 	.card p {

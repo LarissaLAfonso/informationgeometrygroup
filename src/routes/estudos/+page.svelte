@@ -67,7 +67,9 @@
 		margin: 0 0 10px;
 		font-size: clamp(26px, 3.4vw, 36px);
 		letter-spacing: -0.3px;
+		padding-bottom: 3%;
 	}
+
 
 	.lead {
 		margin: 0 0 14px;
@@ -107,6 +109,11 @@
 		align-items: baseline;
 		justify-content: space-between;
 		gap: 10px;
+		color: whitesmoke;
+		border: 1px solid var(--border);
+		border-radius: 14px;
+		background: var(--panel);
+		box-shadow: var(--shadow);
 	}
 
 	.title {
