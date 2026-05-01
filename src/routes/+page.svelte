@@ -73,6 +73,7 @@
 		display: flex;
 		gap: 10px;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.primary,
@@ -128,7 +129,7 @@
 		letter-spacing: -0.15px;
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
-		padding-bottom: 10%;
+		padding-bottom: 3%;
 	}
 
 	.card p {
