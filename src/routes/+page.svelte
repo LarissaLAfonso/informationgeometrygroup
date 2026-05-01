@@ -3,15 +3,17 @@
 </script>
 
 <section class="hero">
-	<h1>Grupo de Estudos em Geometria da Informação</h1>
+	<h1>Grupo de Estudos de Geometria da Informação</h1>
 	<p>
-		Um espaço aberto para ler, discutir e construir intuição sobre geometria diferencial aplicada a probabilidade,
-		informação e estatística — com encontros periódicos, notas de aula e referências comentadas.
+		Um grupo de estudos aberto a todos aqueles interessados em entender melhor temas relacionados à geometria informação, campo que trata da interseção de probabilidade e estatística.
+	</p>
+	<p>
+		Uma vez a cada duas semanas, nos reunimos para ler textos dos mais variados: capítulos de livros ou artigos, recentes ou antigos, mas todos com alguma ideia interessante para os participantes, atualmente todos da área de machine learning probabilístico.
 	</p>
 
 	<div class="cta">
-		<a class="primary" href={base + '/estudos'}>Ver estudos</a>
-		<a class="secondary" href={base + '/sobre-nos'}>Conhecer o grupo</a>
+		<a class="primary" href={base + '/estudos'}>Estudos</a>
+		<a class="secondary" href={base + '/sobre-nos'}>Sobre nós</a>
 	</div>
 </section>
 
@@ -32,17 +34,18 @@
 
 <style>
 	.hero {
-		padding: 22px 18px;
+		padding: 26px 22px;
 		border: 1px solid var(--border);
-		border-radius: 18px;
-		background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+		border-radius: 14px;
+		background: var(--panel);
+		box-shadow: var(--shadow);
 	}
 
 	h1 {
 		margin: 0 0 10px;
-		font-size: clamp(28px, 4vw, 44px);
-		line-height: 1.05;
-		letter-spacing: -0.4px;
+		font-size: clamp(28px, 3.2vw, 42px);
+		line-height: 1.1;
+		letter-spacing: -0.3px;
 	}
 
 	p {
@@ -51,6 +54,10 @@
 		font-size: 16px;
 		line-height: 1.6;
 		max-width: 70ch;
+	}
+
+	p + p {
+		margin-top: 10px;
 	}
 
 	.cta {
@@ -63,57 +70,53 @@
 	.primary,
 	.secondary {
 		text-decoration: none;
-		padding: 10px 12px;
-		border-radius: 12px;
+		padding: 10px 14px;
+		border-radius: 10px;
 		border: 1px solid var(--border);
 		font-weight: 650;
+		letter-spacing: -0.1px;
 	}
 
 	.primary {
-		background: rgba(124, 58, 237, 0.22);
-		border-color: rgba(124, 58, 237, 0.55);
+		background: var(--accent);
+		border-color: var(--accent);
+		color: white;
 	}
 
 	.primary:hover {
-		background: rgba(124, 58, 237, 0.28);
+		filter: brightness(1.05);
 	}
 
 	.secondary {
-		color: var(--muted);
-		background: rgba(255, 255, 255, 0.04);
+		color: var(--accent);
+		background: white;
 	}
 
 	.secondary:hover {
-		color: var(--text);
-		background: rgba(255, 255, 255, 0.06);
+		background: var(--accent-soft);
 	}
 
 	.cards {
 		margin-top: 18px;
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-template-columns: 1fr;
 		gap: 12px;
 	}
 
 	.card {
 		border: 1px solid var(--border);
-		border-radius: 16px;
-		background: rgba(255, 255, 255, 0.04);
-		padding: 14px 14px 12px;
+		border-radius: 14px;
+		background: var(--panel);
+		padding: 16px 16px 14px;
 	}
 
 	.card h2 {
 		margin: 0 0 6px;
 		font-size: 16px;
+		letter-spacing: -0.15px;
 	}
 
 	.card p {
 		font-size: 14px;
-	}
-
-	@media (max-width: 860px) {
-		.cards {
-			grid-template-columns: 1fr;
-		}
 	}
 </style>

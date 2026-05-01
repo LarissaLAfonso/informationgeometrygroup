@@ -35,13 +35,14 @@
 <style>
 	:global(:root) {
 		color-scheme: light;
-		--bg: #0b1020;
-		--panel: rgba(255, 255, 255, 0.06);
-		--text: rgba(255, 255, 255, 0.92);
-		--muted: rgba(255, 255, 255, 0.68);
-		--border: rgba(255, 255, 255, 0.12);
-		--accent: #7c3aed;
-		--accent2: #22c55e;
+		--bg: #f6f7f9;
+		--panel: #ffffff;
+		--text: #111827;
+		--muted: #4b5563;
+		--border: #e5e7eb;
+		--accent: #002147; /* Oxford-like blue */
+		--accent-soft: #e6edf5;
+		--shadow: 0 10px 24px rgba(17, 24, 39, 0.08);
 	}
 
 	:global(body) {
@@ -56,10 +57,7 @@
 			Arial,
 			'Apple Color Emoji',
 			'Segoe UI Emoji';
-		background:
-			radial-gradient(1200px 800px at 10% 10%, rgba(124, 58, 237, 0.35), transparent 60%),
-			radial-gradient(1000px 700px at 90% 30%, rgba(34, 197, 94, 0.25), transparent 55%),
-			var(--bg);
+		background: var(--bg);
 		color: var(--text);
 	}
 
@@ -77,8 +75,8 @@
 		position: sticky;
 		top: 0;
 		z-index: 10;
-		backdrop-filter: blur(12px);
-		background: rgba(11, 16, 32, 0.72);
+		background: rgba(255, 255, 255, 0.92);
+		backdrop-filter: blur(10px);
 		border-bottom: 1px solid var(--border);
 		padding: 14px 18px;
 		display: flex;
@@ -90,7 +88,7 @@
 	.title {
 		text-decoration: none;
 		font-weight: 750;
-		letter-spacing: 0.2px;
+		letter-spacing: -0.2px;
 	}
 
 	.nav {
@@ -108,15 +106,15 @@
 	}
 
 	.link:hover {
-		color: var(--text);
+		color: var(--accent);
 		border-color: var(--border);
-		background: var(--panel);
+		background: var(--accent-soft);
 	}
 
 	.main {
 		width: min(980px, calc(100% - 36px));
 		margin: 0 auto;
-		padding: 28px 0 32px;
+		padding: 28px 0 40px;
 	}
 
 	.footer {
@@ -124,5 +122,6 @@
 		padding: 18px;
 		color: var(--muted);
 		text-align: center;
+		background: var(--panel);
 	}
 </style>

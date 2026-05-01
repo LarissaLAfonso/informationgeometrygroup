@@ -35,42 +35,40 @@
 <style>
 	.section h1 {
 		margin: 0 0 14px;
-		font-size: clamp(26px, 3.2vw, 36px);
+		font-size: clamp(26px, 3.4vw, 36px);
 		letter-spacing: -0.3px;
 	}
 
 	.split {
 		display: grid;
 		grid-template-columns: 1.1fr 1fr;
-		gap: 18px;
+		gap: 14px;
 		align-items: center;
 		border: 1px solid var(--border);
-		border-radius: 14px;
-		background: var(--panel);
-		box-shadow: var(--shadow);
-		padding: 18px;
+		border-radius: 18px;
+		background: rgba(255, 255, 255, 0.04);
+		padding: 14px;
 	}
 
 	.photo {
 		width: 100%;
 		aspect-ratio: 16 / 10;
 		object-fit: cover;
-		border-radius: 12px;
+		border-radius: 14px;
 		border: 1px solid var(--border);
-		background: #f3f4f6;
+		background: rgba(255, 255, 255, 0.03);
 	}
 
 	.organizer {
 		margin-top: 14px;
 		display: grid;
 		grid-template-columns: 120px 1fr;
-		gap: 16px;
+		gap: 14px;
 		align-items: center;
 		border: 1px solid var(--border);
-		border-radius: 14px;
-		background: var(--panel);
-		box-shadow: var(--shadow);
-		padding: 18px;
+		border-radius: 18px;
+		background: rgba(255, 255, 255, 0.04);
+		padding: 14px;
 	}
 
 	.avatar {
@@ -78,20 +76,18 @@
 		height: 120px;
 		border-radius: 999px;
 		border: 1px solid var(--border);
-		background: #f3f4f6;
+		background: rgba(255, 255, 255, 0.03);
 	}
 
 	.text h2 {
 		margin: 0 0 6px;
 		font-size: 16px;
-		letter-spacing: -0.15px;
 	}
 
 	.text p {
 		margin: 0;
 		color: var(--muted);
-		line-height: 1.65;
-		max-width: 80ch;
+		line-height: 1.6;
 	}
 
 	.text p + p {
@@ -110,4 +106,3 @@
 		}
 	}
 </style>
-
